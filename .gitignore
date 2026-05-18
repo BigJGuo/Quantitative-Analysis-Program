@@ -27,6 +27,7 @@ ENV/
 
 # Data caches (yfinance / parquet / pickled frames)
 data/cache/
+.cache/
 *.parquet
 *.feather
 *.pkl
