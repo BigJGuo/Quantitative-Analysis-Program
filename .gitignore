@@ -1,0 +1,58 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+.Python
+build/
+dist/
+*.egg-info/
+*.egg
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment variables / secrets
+.env
+.env.*
+*.key
+*.pem
+
+# Data caches (yfinance / parquet / pickled frames)
+data/cache/
+*.parquet
+*.feather
+*.pkl
+*.h5
+*.hdf5
+
+# Logs and outputs
+logs/
+*.log
+outputs/
+results/
+backtests/
+
+# IDE / editor
+.vscode/
+.idea/
+*.swp
+.DS_Store
+
+# OS
+Thumbs.db
+
+# Coverage / testing
+.coverage
+.coverage.*
+htmlcov/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
